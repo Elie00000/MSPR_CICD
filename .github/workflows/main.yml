@@ -15,5 +15,5 @@ jobs:
         username: admin
         key: ${{ secrets.EC2_SSH_KEY }}
         port: 22
-        source: "Nom.war"
+        source: "EmileALBERICI.war"
         target: "/opt/tomcat/webapps"
